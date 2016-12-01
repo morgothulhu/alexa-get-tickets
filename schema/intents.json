@@ -1,0 +1,52 @@
+{
+    "intents": [
+        {
+            "intent": "FindMovies",
+            "slots": [
+                {
+                    "name": "Genre",
+                    "type": "GENRE"
+                },
+                {
+                    "name": "City",
+                    "type": "AMAZON.US_CITY"
+                }
+            ]
+        },
+        {
+            "intent": "FindShowtimes",
+            "slots": [
+                {
+                    "name": "Date",
+                    "type": "AMAZON.DATE"
+                },
+                {
+                    "name": "Time",
+                    "type": "AMAZON.TIME"
+                },
+                {
+                    "name": "City",
+                    "type": "AMAZON.US_CITY"
+                }
+            ]
+        },
+        {
+            "intent": "GetDetails"
+        },
+        {
+            "intent": "AMAZON.HelpIntent"
+        },
+        {
+            "intent": "AMAZON.NextIntent"
+        },
+        {
+            "intent": "AMAZON.PreviousIntent"
+        },
+        {
+            "intent": "AMAZON.StopIntent"
+        },
+        {
+            "intent": "AMAZON.YesIntent"
+        }
+    ]
+}

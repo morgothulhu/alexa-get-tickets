@@ -1,0 +1,39 @@
+{
+    "name": "getTix",
+    "version": "1.0.0",
+    "main": "index.js",
+    "author": {
+        "name": "Francois Cantonnet",
+        "email": "francois.cantonnet@gmail.com"
+    },
+    "contributors": [
+        "Michael Fallihee <fallimic000@gmail.com>"
+    ],
+    "description": "Getting movie showtimes via Alexa",
+    "keywords": [
+        "movie",
+        "showtimes",
+        "alexa"
+    ],
+    "scripts": {
+        "package": "npm run package:clean && npm run package:build && npm run package:copy && npm run package:npmInstall && npm run package:zip",
+        "package:clean": "IF EXIST bin (rmdir /s /q bin) && IF EXIST lambda.zip (del /q lambda.zip)",
+        "package:build": "tsc --outDir bin/ index.ts",
+        "package:copy": "copy package.json bin\\",
+        "package:npmInstall": "cd bin/ && npm install --production && cd ..",
+        "package:zip": "cd bin/ && ..\\.build\\7z.exe a -r -tzip ..\\lambda.zip *.* && cd ..",
+        "buildrun": "tsc test-index.ts && cls && node test-index.js"
+    },
+    "dependencies": {
+        "request": "2.79.0",
+        "cheerio": "0.22.0",
+        "bluebird": "3.4.6",
+        "moment": "2.17.0",
+        "aws-sdk": "2.6.1"
+    },
+    "devDependencies": {
+        "@types/request": "0.0.36",
+        "@types/cheerio": "0.17.31",
+        "@types/bluebird": "3.0.36"
+    }
+}
