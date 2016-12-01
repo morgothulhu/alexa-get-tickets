@@ -1,0 +1,46 @@
+FindMovies the {Genre} movies
+FindMovies What {Genre} movies are playing
+FindMovies Show {Genre} movies
+FindMovies Get {Genre} movies
+FindMovies Get {Genre}
+FindMovies Show {Genre}
+FindMovies show {Genre} films 
+FindMovies {Genre}
+FindMovies {Genre} movies
+FindMovies {Genre} films
+FindMovies movies
+FindMovies films
+FindMovies top films
+FindMovies top movies
+FindMovies top {Genre} movies
+FindMovies movies in {City}
+FindMovies films in {City}
+FindMovies {Genre} movies in {City}
+FindMovies What movies are playing in {City}
+FindMovies find movies
+FindMovies find {Genre} movies
+FindMovies find {Genre}
+FindMovies find {Genre} films
+FindMovies what's playing
+
+FindShowtimes get show times
+FindShowtimes get movie times
+FindShowtimes get times
+FindShowtimes get tickets
+FindShowtimes show times
+FindShowtimes tickets
+FindShowtimes {Time}
+FindShowtimes {Date}
+FindShowtimes {City}
+
+GetDetails what is it about
+GetDetails tell me about it
+GetDetails what is it
+GetDetails synopsis
+GetDetails summary
+GetDetails what is the synopsis
+GetDetails what is the summary
+GetDetails tell me what it is
+GetDetails what is it
+GetDetails get details
+GetDetails details
