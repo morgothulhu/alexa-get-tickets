@@ -1,8 +1,14 @@
-GET TICKETS skill for Amazon Alexa
+# GET TICKETS skill for Amazon Alexa
+
+**Getting movie showtimes and tickets in a jiffy thanks to Alexa!**
 
 ![logo](./.build/logo.jpg)
 
-*Getting movie showtimes and tickets in a jiffy thanks to Alexa!*
+# Update!
+
+This project has been selected as a finalist in the [AWS re:Invent Alexa Skill Context 2016](https://www.hackster.io/contests/alexa-reinvent).
+
+More details on the project/architecture and even a [demo video](https://youtu.be/miZGYJCwlLw) are present on the [context](https://www.hackster.io/rleyh/gettickets-c54778?ref=challenge&ref_id=82&offset=3) page.
 
 # Introduction 
 
